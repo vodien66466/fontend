@@ -3,7 +3,7 @@ body {
 }
 #head {
 	height: 526px;
-	background-image: url('style/img/hoangyen.jpg');
+	background-image: url('../../style/img/hoangyen.jpg');
 	background-repeat: no-repeat;
 }
 #head .logo {
@@ -114,6 +114,10 @@ body {
 #about {
 	background-color: #fff;
 }
+#about .h {
+	height: 200px;
+}
+
 #about .lf {
 	border-left: rgb(195, 195, 195) solid 3px;
 }
@@ -121,11 +125,25 @@ body {
 	border-right: rgb(195, 195, 195) solid 3px;
 }
 
-#about img {
+#about .imgr {
 	float: right; 
 	margin-right: -70px; 
 	width: 140px; 
 	height: 140px; 
 	background: #ccc; 
 	border-radius: 50%;
+	border: rgb(195, 195, 195) solid 2px;
+}
+
+#about .imgl {
+	float: left; 
+	margin-left: -70px; 
+	width: 140px; 
+	height: 140px; 
+	background: #ccc; 
+	border-radius: 50%;
+	border: rgb(195, 195, 195) solid 2px;
+}
+#about .col-md-5 {
+    margin-left: -35px;
 }
